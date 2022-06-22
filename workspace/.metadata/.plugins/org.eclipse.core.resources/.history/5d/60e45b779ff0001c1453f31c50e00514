@@ -1,0 +1,11 @@
+package com.example.demo.service;
+
+public interface FlightService {
+	
+	Flight saveFlight(Flight f);
+	Flight updateFlight(Flight f);
+	Flight getFlightById(int id);
+	List<Flight>getFlight();
+	void deleteFlight(int id);
+
+}
